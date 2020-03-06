@@ -8,7 +8,7 @@ from bottle import HTTPResponse
 
 @bottle.route("/")
 def index():
-    return "Your Battlesnake is alive!"
+    return "Your Battlesnake is alive! hahahahaa"
 
 
 @bottle.post("/ping")
